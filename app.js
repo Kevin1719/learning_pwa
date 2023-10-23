@@ -3,7 +3,7 @@ const moviename = document.getElementById("query");
 const search = document.getElementsByClassName("btn")[0];
 const spinner = document.getElementById("spinner");
 
-const url = `https://pokeapi.co/api/v2/pokemon?limit=151`;
+// const url = `https://pokeapi.co/api/v2/pokemon?limit=151`;
 const API_KEY="f91017a8a042da0d3b251a9187da7f97"
 const options = {
   method: 'GET',
