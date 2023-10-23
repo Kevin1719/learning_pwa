@@ -14,6 +14,7 @@ const options = {
 };
 
 search.addEventListener('click', async () => {
+  search.style.display = "none"; // Disable the search button
   spinner.style.display = "block"; // Show the spinner
   let output = "";
   if(moviename.value !== ""){
@@ -25,6 +26,7 @@ search.addEventListener('click', async () => {
       return res.json();
     })
       spinner.style.display = "none"; // Show the spinner
+      search.style.display = "inline"; // Re-enable the search button
       data?.results.map((movie) =>
       (output += `
         <div class="col">

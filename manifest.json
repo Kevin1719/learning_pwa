@@ -1,6 +1,6 @@
 {
-  "name": "Pokemon cards",
-  "short_name": "Pokemon cards",
+  "name": "Movie cards",
+  "short_name": "Movie cards",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
