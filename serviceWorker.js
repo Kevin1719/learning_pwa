@@ -1,5 +1,5 @@
 const staticDevMovie = "PWA";
-const toPutInCache = ["index.html", "style.css", "offline.html"]
+const toPutInCache = ["index.html", "style.css", "offline.html", "app.js"]
 const self = this;
 
 self.addEventListener("install", installEvent => {
