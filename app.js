@@ -31,7 +31,7 @@ search.addEventListener('click', async () => {
       (output += `
         <div class="col">
           <div class="card">
-            <a class="card-media" href="./img-01.jpeg">
+            <a class="card-media" href="https://image.tmdb.org/t/p/w500${movie?.poster_path}">
               <img src="https://image.tmdb.org/t/p/w500${movie?.poster_path}" alt="No image" width="100%" />
             </a>
             <div class="card-content">
