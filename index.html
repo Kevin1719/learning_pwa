@@ -19,16 +19,23 @@
     <title>MovieDB cards</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="search-block" id="formulaire">
+       <div id="search-form">
+           <input type="text" id="keyValue" placeholder="Entrer votre apikey..." />
+           <button id="checkKey" class="btn">Valider</button>
+       </div>
+   </div>
+    <div class="wrapper" id="wrap">
       <div class="search-block">
+         <button id="remove" class="btn" style="position: absolute; right: 2px; top: 2px">Remove key</button>
           <div id="search-form">
               <input type="text" id="query" placeholder="Entrer le titre d'un film..." />
               <button class="btn">Rechercher</button>
           </div>
       </div>
       <div class="row" id="root"></div>
-      <div id="spinner" class="spinner"></div>
     </div>
+    <div id="spinner" class="spinner"></div>
     <script src="app.js"></script>
   </body>
 </html>
