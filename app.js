@@ -33,6 +33,7 @@ checkKey.addEventListener('click', async () => {
       spinner.style.display = "none"; // hide the spinner
       if(json.status_code === 7){
         alert(json.status_message)
+        confirm("Essayer ça: f91017a8a042da0d3b251a9187da7f97")
       }
       if(json.results){
         localStorage.setItem('apikey', keyValue.value)
